@@ -1,0 +1,105 @@
+
+Gurobi 12.0.3 (mac64[arm], Python) logging started Tue Oct  7 16:06:52 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719285
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2026-10-07
+Warning: unknown variable 'xp1w1' in bounds section (line 12)
+Warning: unknown variable 'xp1w2' in bounds section (line 13)
+Warning: unknown variable 'xp2w1' in bounds section (line 14)
+Warning: unknown variable 'xp2w2' in bounds section (line 15)
+Warning: unknown variable 'xw1r1' in bounds section (line 16)
+Warning: unknown variable 'xw1r2' in bounds section (line 17)
+Warning: unknown variable 'xw1r3' in bounds section (line 18)
+Warning: unknown variable 'xw2r1' in bounds section (line 19)
+Warning: unknown variable 'xw2r2' in bounds section (line 20)
+Warning: unknown variable 'xw2r3' in bounds section (line 20)
+Warning: Numeric variable name in LP file ('1175xp1w1') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file dist_network.lp
+Reading time = 0.00 seconds
+: 7 rows, 20 columns, 20 nonzeros
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (mac64[arm] - Darwin 24.6.0 24G90)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 7 rows, 20 columns and 20 nonzeros
+Model fingerprint: 0xb14dd904
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [2e+02, 6e+02]
+  RHS range        [4e+02, 9e+02]
+Presolve removed 7 rows and 20 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.0000000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  3.000000000e+03
+Warning: unknown variable 'xp1w1' in bounds section (line 12)
+Warning: unknown variable 'xp1w2' in bounds section (line 13)
+Warning: unknown variable 'xp2w1' in bounds section (line 14)
+Warning: unknown variable 'xp2w2' in bounds section (line 15)
+Warning: unknown variable 'xw1r1' in bounds section (line 16)
+Warning: unknown variable 'xw1r2' in bounds section (line 17)
+Warning: unknown variable 'xw1r3' in bounds section (line 18)
+Warning: unknown variable 'xw2r1' in bounds section (line 19)
+Warning: unknown variable 'xw2r2' in bounds section (line 20)
+Warning: unknown variable 'xw2r3' in bounds section (line 20)
+Warning: Numeric variable name in LP file ('1175xp1w1') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file dist_network.lp
+Reading time = 0.00 seconds
+: 7 rows, 20 columns, 20 nonzeros
+
+Gurobi 12.0.3 (mac64[arm], Python) logging started Tue Oct  7 16:09:38 2025
+
+Set parameter Username
+Set parameter LicenseID to value 2719285
+Set parameter LogFile to value "gurobi.log"
+Academic license - for non-commercial use only - expires 2026-10-07
+Warning: unknown variable 'xp1w1' in bounds section (line 12)
+Warning: unknown variable 'xp1w2' in bounds section (line 13)
+Warning: unknown variable 'xp2w1' in bounds section (line 14)
+Warning: unknown variable 'xp2w2' in bounds section (line 15)
+Warning: unknown variable 'xw1r1' in bounds section (line 16)
+Warning: unknown variable 'xw1r2' in bounds section (line 17)
+Warning: unknown variable 'xw1r3' in bounds section (line 18)
+Warning: unknown variable 'xw2r1' in bounds section (line 19)
+Warning: unknown variable 'xw2r2' in bounds section (line 20)
+Warning: unknown variable 'xw2r3' in bounds section (line 20)
+Warning: Numeric variable name in LP file ('1175xp1w1') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file dist_network.lp
+Reading time = 0.00 seconds
+: 7 rows, 20 columns, 20 nonzeros
+Read LP format model from file dist_network.lp
+Reading time = 0.00 seconds
+: 7 rows, 10 columns, 20 nonzeros
+Gurobi Optimizer version 12.0.3 build v12.0.3rc0 (mac64[arm] - Darwin 24.6.0 24G90)
+
+CPU model: Apple M4
+Thread count: 10 physical cores, 10 logical processors, using up to 10 threads
+
+Optimize a model with 7 rows, 10 columns and 20 nonzeros
+Model fingerprint: 0x176250d0
+Coefficient statistics:
+  Matrix range     [1e+03, 2e+03]
+  Objective range  [1e+03, 2e+03]
+  Bounds range     [2e+02, 6e+02]
+  RHS range        [4e+02, 9e+02]
+Presolve removed 7 rows and 10 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    3.0000000e+03   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.00 seconds (0.00 work units)
+Optimal objective  3.000000000e+03
