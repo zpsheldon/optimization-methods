@@ -1,0 +1,144 @@
+Optimize a model with 112 rows, 108 columns and 354 nonzeros
+Model fingerprint: 0x715a92fa
+Variable types: 0 continuous, 108 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [3e+00, 1e+01]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e+01, 1e+03]
+Presolve removed 64 rows and 28 columns
+Presolve time: 0.00s
+Presolved: 48 rows, 80 columns, 258 nonzeros
+Variable types: 0 continuous, 80 integer (0 binary)
+Found heuristic solution: objective 136600.00000
+
+Root relaxation: objective 4.415000e+04, 35 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+*    0     0               0    44150.000000 44150.0000  0.00%     -    0s
+
+Explored 1 nodes (35 simplex iterations) in 0.01 seconds (0.00 work units)
+Thread count was 10 (of 10 available processors)
+
+Solution count 2: 44150 136600 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 4.415000000000e+04, best bound 4.415000000000e+04, gap 0.0000%
+
+ Results:
+
+Optimal Objective Value: 44150.00
+
+initial dist. of aircrafts (A[i,0]):
+Airport A: 635 aircraft
+Airport B: 200 aircraft
+Airport C: 365 aircraft
+
+
+
+DAILY AIRCRAFT MOVEMENTS (with cargo):
+
+Day 0:
+  A->B: 200 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 200 aircraft
+
+Day 1:
+  A->B: 100 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 300 aircraft
+
+Day 2:
+  A->B: 400 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 200 aircraft
+
+Day 3:
+  A->B: 300 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 400 aircraft
+
+Day 4:
+  A->B: 100 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 400 aircraft
+
+
+
+repositioning movements each day (empty):
+
+Day 0:
+  B->C: 150 aircraft
+
+Day 1:
+  B->A: 905 aircraft
+
+Day 2:
+  B->A: 120 aircraft
+  B->C: 810 aircraft
+
+Day 3:
+  B->C: 365 aircraft
+
+Day 4:
+
+
+
+cargo inventory daily (X_ijt):
+
+Day 0:
+  A->B: 200 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 200 loads
+
+Day 1:
+  A->B: 100 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 300 loads
+
+Day 2:
+  A->B: 400 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 200 loads
+
+Day 3:
+  A->B: 300 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 400 loads
+
+Day 4:
+  A->B: 100 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 400 loads
