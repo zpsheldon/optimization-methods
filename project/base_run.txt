@@ -1,54 +1,56 @@
-Optimize a model with 112 rows, 108 columns and 354 nonzeros
-Model fingerprint: 0x715a92fa
-Variable types: 0 continuous, 108 integer (0 binary)
+Optimize a model with 80 rows, 90 columns and 330 nonzeros
+Model fingerprint: 0xd1e4e181
+Variable types: 0 continuous, 90 integer (0 binary)
 Coefficient statistics:
   Matrix range     [1e+00, 1e+00]
   Objective range  [3e+00, 1e+01]
   Bounds range     [0e+00, 0e+00]
   RHS range        [2e+01, 1e+03]
-Presolve removed 64 rows and 28 columns
+Presolve removed 30 rows and 24 columns
 Presolve time: 0.00s
-Presolved: 48 rows, 80 columns, 258 nonzeros
-Variable types: 0 continuous, 80 integer (0 binary)
-Found heuristic solution: objective 136600.00000
+Presolved: 50 rows, 66 columns, 270 nonzeros
+Variable types: 0 continuous, 66 integer (0 binary)
 
-Root relaxation: objective 4.415000e+04, 35 iterations, 0.00 seconds (0.00 work units)
+Root relaxation: objective 1.465000e+04, 42 iterations, 0.01 seconds (0.00 work units)
 
     Nodes    |    Current Node    |     Objective Bounds      |     Work
  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
 
-*    0     0               0    44150.000000 44150.0000  0.00%     -    0s
+*    0     0               0    14650.000000 14650.0000  0.00%     -    0s
 
-Explored 1 nodes (35 simplex iterations) in 0.01 seconds (0.00 work units)
+Explored 1 nodes (42 simplex iterations) in 0.02 seconds (0.00 work units)
 Thread count was 10 (of 10 available processors)
 
-Solution count 2: 44150 136600 
+Solution count 1: 14650 
 
 Optimal solution found (tolerance 1.00e-04)
-Best objective 4.415000000000e+04, best bound 4.415000000000e+04, gap 0.0000%
+Best objective 1.465000000000e+04, best bound 1.465000000000e+04, gap 0.0000%
 
  Results:
 
-Optimal Objective Value: 44150.00
-
-initial dist. of aircrafts (A[i,0]):
-Airport A: 635 aircraft
-Airport B: 200 aircraft
-Airport C: 365 aircraft
+Optimal Objective Value: 14650.00
 
 
 
 DAILY AIRCRAFT MOVEMENTS (with cargo):
 
 Day 0:
-  A->B: 200 aircraft
+  A->B: 185 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 415 aircraft
+
+Day 1:
+  A->B: 290 aircraft
   A->C: 50 aircraft
   B->A: 25 aircraft
   B->C: 25 aircraft
   C->A: 40 aircraft
   C->B: 200 aircraft
 
-Day 1:
+Day 2:
   A->B: 100 aircraft
   A->C: 50 aircraft
   B->A: 25 aircraft
@@ -56,7 +58,7 @@ Day 1:
   C->A: 40 aircraft
   C->B: 300 aircraft
 
-Day 2:
+Day 3:
   A->B: 400 aircraft
   A->C: 50 aircraft
   B->A: 25 aircraft
@@ -64,54 +66,61 @@ Day 2:
   C->A: 40 aircraft
   C->B: 200 aircraft
 
-Day 3:
-  A->B: 300 aircraft
-  A->C: 50 aircraft
-  B->A: 25 aircraft
-  B->C: 25 aircraft
-  C->A: 40 aircraft
-  C->B: 400 aircraft
-
 Day 4:
-  A->B: 100 aircraft
+  A->B: 125 aircraft
   A->C: 50 aircraft
   B->A: 25 aircraft
   B->C: 25 aircraft
   C->A: 40 aircraft
-  C->B: 400 aircraft
+  C->B: 385 aircraft
 
 
 
 repositioning movements each day (empty):
 
 Day 0:
-  B->C: 150 aircraft
+  B->A: 275 aircraft
+  B->C: 185 aircraft
 
 Day 1:
-  B->A: 905 aircraft
+  B->A: 65 aircraft
+  B->C: 485 aircraft
+  C->A: 20 aircraft
 
 Day 2:
-  B->A: 120 aircraft
-  B->C: 810 aircraft
+  B->A: 165 aircraft
+  B->C: 275 aircraft
+  C->A: 220 aircraft
 
 Day 3:
-  B->C: 365 aircraft
+  B->C: 350 aircraft
+  C->A: 110 aircraft
 
 Day 4:
+  B->A: 170 aircraft
+  B->C: 380 aircraft
 
 
 
 cargo inventory daily (X_ijt):
 
 Day 0:
-  A->B: 200 loads
+  A->B: 275 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 415 loads
+
+Day 1:
+  A->B: 290 loads
   A->C: 50 loads
   B->A: 25 loads
   B->C: 25 loads
   C->A: 40 loads
   C->B: 200 loads
 
-Day 1:
+Day 2:
   A->B: 100 loads
   A->C: 50 loads
   B->A: 25 loads
@@ -119,7 +128,7 @@ Day 1:
   C->A: 40 loads
   C->B: 300 loads
 
-Day 2:
+Day 3:
   A->B: 400 loads
   A->C: 50 loads
   B->A: 25 loads
@@ -127,7 +136,7 @@ Day 2:
   C->A: 40 loads
   C->B: 200 loads
 
-Day 3:
+Day 4:
   A->B: 300 loads
   A->C: 50 loads
   B->A: 25 loads
@@ -135,10 +144,19 @@ Day 3:
   C->A: 40 loads
   C->B: 400 loads
 
+
+
+cargo leftover daily:
+
+Day 0:
+  A->B: 175 loads
+  C->B: 15 loads
+
+Day 1:
+  A->B: 90 loads
+
+Day 2:
+
+Day 3:
+
 Day 4:
-  A->B: 100 loads
-  A->C: 50 loads
-  B->A: 25 loads
-  B->C: 25 loads
-  C->A: 40 loads
-  C->B: 400 loads
