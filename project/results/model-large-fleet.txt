@@ -1,0 +1,132 @@
+Optimal Objective Value: 15950.00
+
+
+
+DAILY AIRCRAFT MOVEMENTS (with cargo):
+
+Day 0:
+  A->B: 100 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 400 aircraft
+
+Day 1:
+  A->B: 200 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 200 aircraft
+
+Day 2:
+  A->B: 100 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 300 aircraft
+
+Day 3:
+  A->B: 400 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 200 aircraft
+
+Day 4:
+  A->B: 300 aircraft
+  A->C: 50 aircraft
+  B->A: 25 aircraft
+  B->C: 25 aircraft
+  C->A: 40 aircraft
+  C->B: 400 aircraft
+
+
+
+repositioning movements each day (empty):
+
+Day 0:
+  B->C: 650 aircraft
+  C->A: 185 aircraft
+  C->B: 25 aircraft
+
+Day 1:
+  B->C: 475 aircraft
+  C->A: 85 aircraft
+  C->B: 400 aircraft
+
+Day 2:
+  B->A: 190 aircraft
+  B->C: 560 aircraft
+  C->A: 195 aircraft
+  C->B: 15 aircraft
+
+Day 3:
+  B->C: 365 aircraft
+  C->A: 285 aircraft
+  C->B: 110 aircraft
+
+Day 4:
+  B->A: 85 aircraft
+  B->C: 575 aircraft
+
+
+
+cargo inventory daily (X_ijt):
+
+Day 0:
+  A->B: 100 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 400 loads
+
+Day 1:
+  A->B: 200 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 200 loads
+
+Day 2:
+  A->B: 100 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 300 loads
+
+Day 3:
+  A->B: 400 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 200 loads
+
+Day 4:
+  A->B: 300 loads
+  A->C: 50 loads
+  B->A: 25 loads
+  B->C: 25 loads
+  C->A: 40 loads
+  C->B: 400 loads
+
+
+
+cargo leftover daily:
+
+Day 0:
+
+Day 1:
+
+Day 2:
+
+Day 3:
+
+Day 4:
